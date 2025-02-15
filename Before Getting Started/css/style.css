@@ -1,0 +1,109 @@
+:root {
+    --pink: rgba(238, 109, 137);
+    --cool_paper: rgba(154, 126, 119, .2);
+    --warm_paper: rgba(221, 201, 161, 0.3);
+    --egg: rgba(221, 201, 161, .7);
+    --highlighter_yellow: rgba(237, 209, 29, 0.5);
+    --book_green: rgba(116, 207, 108);
+
+
+}
+
+body {
+    background-color: #fffaeb;
+    color: rgba(65, 24, 11);
+}
+
+article.titlebanner {
+    background-color: rgba(183, 123, 82);
+    text-align: center;
+}
+
+h1 {
+    text-decoration-color: rgba(221, 201, 161);
+}
+
+nav {
+    background-color: var(--book_green);
+    display: flex;
+    align-items: center;
+    max-height: 80px;
+}
+
+menu {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
+    margin: 15%;
+    padding: .5%;
+}
+
+menu li {
+    display: inline-block;
+    flex-grow: 1;
+    margin: 1%;
+    padding: 2%;
+    border: 4px groove rgba(65, 24, 11, .75);
+    background-color: rgba(255, 250, 235, .75);
+    }
+
+menu li :hover,
+menu li :active {
+    color: var(--pale_goth);
+}
+
+menu :hover {
+    background-color: rgba(255, 250, 235);
+    border-block-end-color: rgb(194, 149, 12);
+}
+
+h2 {
+    margin: 16px;
+    text-align: center;
+    color: var(--pink);
+    background-color: var(--cool_paper);
+    padding: .5%;
+}
+
+article.overview {
+    background-color: var(--egg);
+    padding: 1%;
+}
+
+article.overview p {
+    margin-left: 12px;
+}
+
+h3 {
+    display: inline-block;
+    margin: 16px;
+    text-align: center;
+    color: var(--pink);
+    background-color: var(--highlighter_yellow);
+    padding: .5%;
+}
+
+article.subcat p {
+    background-color: var(--warm_paper);
+    margin-left: 32px;
+    padding: 2.5%;
+}
+
+h4 {
+    display: inline-block;
+    margin: 16px;
+    text-align: center;
+    color: var(--pink);
+    background-color: var(--cool_paper);
+    padding: .5%;
+
+}
+
+ul {
+    margin-left: 64px;
+    list-style-position: inside;
+    background-color: var(--cool_paper);
+    padding: .75%;
+}
